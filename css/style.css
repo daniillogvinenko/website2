@@ -138,6 +138,10 @@ body {
           flex-direction: column;
 }
 
+.header__item a:visited {
+  color: white;
+}
+
 .header__item:last-child {
   color: black;
   background-color: white;
@@ -156,6 +160,10 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease;
           animation-timing-function: ease;
+}
+
+.header__item:last-child a:visited {
+  color: black;
 }
 
 .header__item:hover {
