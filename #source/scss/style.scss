@@ -6,7 +6,6 @@ body
 {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
-    
 }
 
 .menu
@@ -60,16 +59,25 @@ body
     justify-content: space-between;
     align-items: center;
 
-    
-    
 }
+
+
 .header__item 
 {
     //border: 3px solid rgb(152, 163, 0);
 
     
+
+
+
     display: flex;
     flex-direction: column;
+    a:visited
+    {
+        color: white;
+    }
+
+
     &:last-child
     {
         color: black;
@@ -80,12 +88,6 @@ body
         padding: 12px 0 0 12px;
         transition-duration: 0.3s;
         
-        
-            
-        
-        
-
-        
         position: relative;
 
 
@@ -94,6 +96,12 @@ body
         animation-iteration-count: infinite;
         animation-timing-function: ease;
         //animation-direction: alternate;
+
+
+        a:visited
+        {
+            color: rgb(0, 0, 0);
+        }
     }
 
     &:hover
@@ -124,6 +132,9 @@ body
     {
         color: black;
     }
+
+
+    
 
     
 }
